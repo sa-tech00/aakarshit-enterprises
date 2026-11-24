@@ -38,16 +38,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="topbar">
-        <div className="container">
-          <div className="group">
-            <a href={`tel:${COMPANY.phones[0].tel}`}><Phone size={14} /> {COMPANY.phones[0].display}</a>
-            <a href={`tel:${COMPANY.phones[1].tel}`} className="hide-sm"><Phone size={14} /> {COMPANY.phones[1].display}</a>
-            <a href={`mailto:${COMPANY.email}`} className="hide-sm"><Mail size={14} /> {COMPANY.email}</a>
-          </div>
-          <span className="hide-sm place"><MapPin size={14} /> Lokmanya Nagar, Thane (W)</span>
-        </div>
-      </div>
+    
 
       <header className="nav">
         <div className="container">
